@@ -36,7 +36,7 @@ static void main_window_load(Window *window){
   
   Layer *window_layer = window_get_root_layer(window);
   text_layer = text_layer_create(GRect(0, 0, 144, 60));
-  text_layer_set_text(text_layer, size_of_word_in_memory );
+  text_layer_set_text(text_layer, i_am_a_word );
   text_layer_set_text_color(text_layer, GColorBlack);
   
   layer_add_child(window_layer, text_layer_get_layer(text_layer));
