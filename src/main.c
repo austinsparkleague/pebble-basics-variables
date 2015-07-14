@@ -17,13 +17,23 @@ static void main_window_load(Window *window){
   //In most programming languages this is how you would declare a variable:
   int some_integer = 4;
   
-  //this would instructs the computer to set aside enough space in memory to store an integer, and then 
-  //we tell 
+  //this instructs the computer to set aside enough space in memory to store an integer, and then 
+  //we tell it to store the integer 4 in that memory. 
   
   //C is a powerful language because it allows us to have a very nuanced control of our memory.
-  //This sometimes makes it a difficult langauge to learn, because you have to be very explicit
-  //about how you want things done at every step of the process.
+  //This can makes it an intimidating langauge to learn, because you have to be very explicit
+  //about how you want things done at every step of the process.  But fear not!
   //
+  //there are other types of variables that we can create too.  Not just integers.
+ //  Here are the basic types that we can use in C:
+////////////////////////////////////////////////////////////////////////////
+//   char 	This is what we will use to store words, a.k.a. "strings"     //
+//   int 	The most natural size of integer for the machine.               //
+//   float 	A single-precision floating point value.                      // 
+//   double 	A double-precision floating point value.                    //
+//   void 	Represents the absence of type.                               //
+////////////////////////////////////////////////////////////////////////////  
+  
   //When storing Data, we also make heavy use of something called a "pointer", which is just a specific type of variable
   //The concept of the pointer is actually considered an "advanced" concept, but pebble requires us
   //to use pointers.  So we are going to talk about it sooner than I would prefer.
